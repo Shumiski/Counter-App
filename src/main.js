@@ -5,7 +5,7 @@ import { setupCounter } from './counter.js'
 
 document.querySelector('#app').innerHTML = `
   <div>
-    Hello World
+    This is a new app!
   </div>
 `
 
