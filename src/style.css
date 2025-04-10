@@ -37,6 +37,11 @@ body {
   align-items: center;
 }
 
+.counter__limit{
+  background-color: #ccc;
+  color: #777;
+}
+
 .counter__title{
   font-size: 60px;
   font-weight: 400;

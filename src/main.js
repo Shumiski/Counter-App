@@ -5,7 +5,7 @@ import { setupCounter } from './counter.js'
 document.querySelector('#app').innerHTML = `
  <div class="counter">
       <h1 class="counter__title">Counter</h1>
-      <h2 class="counter__subtitle">Use this to count your coffee cups</h2>
+      <h2 class="counter__subtitle">How many cups of coffee have you had today?</h2>
       <span class="counter__value">0</span>
       <button class="counter__reset-buton">
         <i class="fas fa-sync-alt counter__reset-icon"></i>
@@ -23,4 +23,4 @@ document.querySelector('#app').innerHTML = `
     </div>
 `
 
-setupCounter(document.querySelector('.counter__value'));
+setupCounter();
