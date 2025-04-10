@@ -57,7 +57,7 @@ body {
 }
 
 .counter__value{
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto', sans-serif;
   font-size: 180px;
   font-weight: 400;
   text-align: center;
