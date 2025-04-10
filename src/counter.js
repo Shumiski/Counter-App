@@ -1,7 +1,8 @@
-export function setupCounter(element) {
+export function setupCounter() {
   const counterIncreaseEL = document.querySelector('.counter__button--increase');
   const counterDecreaseEL = document.querySelector('.counter__button--decrease');
   const counterResetEL = document.querySelector('.counter__reset-buton');
+  const element = document.querySelector('.counter__value');
   let count = 0;
   
   counterIncreaseEL.addEventListener('click', () => {
